@@ -33,17 +33,17 @@
    <left>
       <Pane prefHeight="349.0" prefWidth="120.0" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="15.0" layoutY="69.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="81.0" text="Principiante" />
-            <Button layoutX="16.0" layoutY="32.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="82.0" text="Intermedio" />
-            <Button layoutX="15.0" layoutY="106.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="83.0" text="Experto" />
+            <Button fx:id="bBeginner" layoutX="15.0" layoutY="69.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="81.0" text="Principiante" />
+            <Button fx:id="bIntermediate" layoutX="16.0" layoutY="32.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="82.0" text="Intermedio" />
+            <Button fx:id="bExpert" layoutX="15.0" layoutY="106.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="83.0" text="Experto" />
             <Label layoutX="15.0" layoutY="6.0" text="Escoge el nivel:" />
-            <ImageView fitHeight="92.0" fitWidth="91.0" layoutX="12.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="iFace" fitHeight="92.0" fitWidth="91.0" layoutX="12.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../Desktop/emoji%20feliz.png" />
                </image>
             </ImageView>
-            <Button layoutX="19.0" layoutY="248.0" mnemonicParsing="false" text="Ver Solución" />
-            <Button layoutX="21.0" layoutY="295.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="73.0" text="Reintentar" textAlignment="CENTER" />
+            <Button fx:id="bSolution" layoutX="19.0" layoutY="248.0" mnemonicParsing="false" text="Ver Solución" />
+            <Button fx:id="bRetry" layoutX="21.0" layoutY="295.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="73.0" text="Reintentar" textAlignment="CENTER" />
             <Separator layoutX="117.0" layoutY="4.0" orientation="VERTICAL" prefHeight="346.0" prefWidth="7.0" />
          </children>
       </Pane>
