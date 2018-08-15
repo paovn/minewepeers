@@ -5,10 +5,11 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import model.Game;
 
 public class ControllerWindow implements Initializable{
 	
-	private Button bBegginer;
+	private Game game;
 	
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
