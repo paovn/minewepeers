@@ -19,9 +19,9 @@ public class Board{
 	private boolean gameOver;
 	
 	
-	public Board() {
+	public Board(int level) {
 		gameOver = false;
-		level = 0;
+		this.level = level;
 		generateBoard();
 	}
 	

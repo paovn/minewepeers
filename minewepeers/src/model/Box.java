@@ -41,17 +41,16 @@ public class Box {
 	}
 	
 	public String imageString() {
-		String returnVariable = "0"; //"Ruta/" + 0 + ".png";
+		String returnVariable = "";
 		if(isMark){
-			returnVariable = "M";
+			returnVariable = "datos/m.jpg";
 		}else if (isCover) {
-			returnVariable = "0"; //"Ruta/" + 0 + ".png";
+			returnVariable = "datos/" + 12 + ".png";
 		}else if (isMine) {
-			returnVariable = "X"; //"Ruta/" + 1 + ".png";
+			returnVariable = "datos/" + 2 + ".png";
 		}else {
 			returnVariable = "" + numberOfMinesAround; //"Ruta/" +  + ".png";
 		}
-		
 		
 		return returnVariable;
 	}

@@ -11,21 +11,16 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import model.Board;
 
-public class ControllerWindow implements Initializable{
+public class ControllerIntermediate implements Initializable {
 	
-	private Board board;
-	
-	private Button[][] Botones;
-	
-	private Button buttonx;
+	private Board board; 
 	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
-		board =new Board(0);
-		
+	public void initialize(URL location, ResourceBundle resources) {
+		// TODO Auto-generated method stub
+		board = new Board(2);
 	}
 	public void generatedBoardBegginer(ActionEvent event) {
 		
@@ -47,7 +42,7 @@ public class ControllerWindow implements Initializable{
 	
 }
 	public void generatedBoardIntermediate(ActionEvent event) {
-			
+		
 		try {
 			
 			FXMLLoader loader = new FXMLLoader();
@@ -85,5 +80,6 @@ public class ControllerWindow implements Initializable{
 			}
 		
 	}
+	
 
 }
