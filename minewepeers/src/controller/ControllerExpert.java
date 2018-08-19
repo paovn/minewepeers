@@ -24,7 +24,7 @@ public class ControllerExpert implements Initializable {
 		// TODO Auto-generated method stub
 		board = new Board(1);
 	}
-	public void generatedBoardBegginer(ActionEvent event) {
+	public void generatedBoardBeginner(ActionEvent event) {
 			
 			try {
 				

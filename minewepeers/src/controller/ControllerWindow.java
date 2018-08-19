@@ -27,7 +27,7 @@ public class ControllerWindow implements Initializable{
 		board =new Board(0);
 		
 	}
-	public void generatedBoardBegginer(ActionEvent event) {
+	public void generatedBoardBeginner(ActionEvent event) {
 		
 		try {
 			

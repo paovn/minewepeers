@@ -22,7 +22,7 @@ public class ControllerIntermediate implements Initializable {
 		// TODO Auto-generated method stub
 		board = new Board(2);
 	}
-	public void generatedBoardBegginer(ActionEvent event) {
+	public void generatedBoardBeginner(ActionEvent event) {
 		
 		try {
 			
@@ -30,7 +30,6 @@ public class ControllerIntermediate implements Initializable {
 			loader.setLocation(Main.class.getResource("/application/window2.fxml"));
 			Parent root = (Parent) loader.load();
 			Scene scene = new Scene(root);
-			
 			Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 			window.setScene(scene);
 			window.setTitle("Novate");
