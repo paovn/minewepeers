@@ -52,7 +52,7 @@
    <center>
       <GridPane accessibleRole="IMAGE_VIEW" BorderPane.alignment="CENTER">
         <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints fx:id="grid" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -78,9 +78,9 @@
          </effect>
          <children>
             <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="81.0" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="77.0" text="Button" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="76.0" text="Button" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="78.0" text="Button" GridPane.columnIndex="3" />
+            <Button fx:id="p0p1" mnemonicParsing="false" onAction="#metodoMostrarCasilla" prefHeight="48.0" prefWidth="77.0" text="Button" GridPane.columnIndex="1" />
+            <Button fx:id="p0p2" mnemonicParsing="false" onAction="#metodoMostrarCasilla" prefHeight="49.0" prefWidth="76.0" text="Button" GridPane.columnIndex="2" />
+            <Button fx:id="p0p3" mnemonicParsing="false" onAction="#metodoMostrarCasilla" prefHeight="48.0" prefWidth="78.0" text="Button" GridPane.columnIndex="3" />
             <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="77.0" text="Button" GridPane.rowIndex="1" />
             <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="74.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="78.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
@@ -127,7 +127,7 @@
             <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="76.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="7" />
             <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="78.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="6" />
             <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="76.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="78.0" text="Button" />
+            <Button fx:id="p0p0" mnemonicParsing="false" onAction="#metodoMostrarCasilla" prefHeight="48.0" prefWidth="78.0" text="Button" />
             <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="77.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="7" />
             <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="78.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="6" />
             <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="80.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="5" />
